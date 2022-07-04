@@ -1,0 +1,26 @@
+{
+  "name": "smart-brain-api",
+  "homepage": "https://munthasir.github.io/smart-brain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=3000 && nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai": "^2.9.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
+    "knex": "^2.1.0",
+    "nodemon": "^2.0.18",
+    "pg": "^8.7.3"
+  }
+}
